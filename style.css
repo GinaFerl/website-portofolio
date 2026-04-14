@@ -468,6 +468,11 @@ footer ul li a{
     .experience-info img {
         display: none;
     }
+
+    .projects-grid .project-card img {
+        width: 65vw;
+        border-radius: 1rem;
+    }
 }
 
 @media (max-width:600px) {
@@ -521,6 +526,10 @@ footer ul li a{
         justify-content: left;
         cursor: pointer;
         transition: 0.2s ease-in-out;
+    }
+    .projects-grid .project-card img {
+        width: 60vw;
+        border-radius: 1rem;
     }
     .btn-group {
         display: block;
